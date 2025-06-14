@@ -1,17 +1,24 @@
 import React from "react";
 import currencyConvert from "../assets/portfolio/currencyConvert.jpg";
+import majesticHotelImage from "../assets/portfolio/MajesticHotelsImage.png";
 import blogImage from "../assets/portfolio/blogImage.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: majesticHotelImage,
+      demoLink: 'https://staymajestic.netlify.app/',
+      codeLink:'https://github.com/Alpish-Jain/Majestic-Hotel-Frontend'
+    },
+    {
+      id: 2,
       src: currencyConvert,
       demoLink: 'https://quickcurrency.netlify.app/',
       codeLink:'https://github.com/Alpish-Jain/currency-converter-live'
     },
     {
-      id: 2,
+      id: 3,
       src: blogImage,
       demoLink: 'https://create-blogs.netlify.app/',
       codeLink:'https://github.com/Alpish-Jain/create-blogs'
