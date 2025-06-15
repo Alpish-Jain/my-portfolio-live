@@ -145,7 +145,7 @@ const Certifications = () => {
     ]
   return (
       <div name='certifications' className='w-full min-h-screen 
-    bg-gradient-to-b from-black to-gray-800
+    bg-gradient-to-b from-gray-800 to-black
      text-white md:pt-2'>
            <div className='max-w-screen-lg p-4 mx-auto flex flex-col
               justify-center w-full h-full'>

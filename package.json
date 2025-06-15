@@ -17,6 +17,7 @@
     "react-scroll": "^1.9.3",
     "react-starfield": "^1.0.3",
     "react-typed": "^2.0.12",
+    "react-vertical-timeline-component": "^3.5.3",
     "tailwindcss": "^4.1.8"
   },
   "devDependencies": {

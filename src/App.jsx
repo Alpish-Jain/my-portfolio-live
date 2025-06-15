@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Background from './components/Background';
 import Footer from './components/Footer';
 import Certifications from './components/Certifications';
+import WorkExperience from './components/WorkExperience';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <WorkExperience />
       <Portfolio />
       <Experience />
       <Certifications />
