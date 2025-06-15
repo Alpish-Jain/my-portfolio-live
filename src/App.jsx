@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Background from './components/Background';
 import Footer from './components/Footer';
+import Certifications from './components/Certifications';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Certifications />
       <Contact />
       <Footer />
       <SocialLinks />
